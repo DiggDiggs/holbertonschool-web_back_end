@@ -1,0 +1,21 @@
+{
+  "name": "ES6_classes",
+  "version": "1.0.0",
+  "description": "ES6 classes holbertonschool-web_back_end",
+  "main": "0-classroom.js",
+  "dependencies": {
+    "jest": "^29.6.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.15",
+    "@babel/preset-env": "^7.22.15",
+    "babel-jest": "^29.6.4",
+    "eslint": "^8.48.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
