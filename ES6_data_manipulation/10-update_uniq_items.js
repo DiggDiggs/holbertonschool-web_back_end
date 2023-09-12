@@ -1,10 +1,10 @@
 const updateUniqueItems = (items) => {
-  if (!(items instanceof Map)) {
+  if (!(map instanceof Map)) {
     throw new Error('Cannot process');
   }
-  for (const [k, v] of items) {
-    if (v === 1) {
-      items.set(k, 100);
+  for (const [key, value] of map) {
+    if (value === 1) {
+      map.set(k, 100);
     }
   }
   return items;
